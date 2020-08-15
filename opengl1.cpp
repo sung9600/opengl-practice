@@ -18,7 +18,6 @@ void display() {
 	glFinish();
 }
 int main(int argc, char** argv) {
-    
 	glutInit(&argc, argv);
 	glutCreateWindow("OPENGL");
 	glutDisplayFunc(display);
